@@ -446,6 +446,7 @@ input{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         position: relative;
+        margin-right: 5px;
     
     }
 
@@ -497,7 +498,7 @@ input{
    
     .add_popup{
 
-        width: 90%; /* Adjust the width as needed */
+        width: 80%; /* Adjust the width as needed */
         max-width: none; /* Remove max-width */
         margin: 0 1%;
     
@@ -506,7 +507,7 @@ input{
 
     .description_popup{
 
-        width: 90%; /* Adjust the width as needed */
+        width: 80%; /* Adjust the width as needed */
         max-width: none; /* Remove max-width */
         margin: 0 1%;
      
