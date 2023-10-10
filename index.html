@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href=".//images/favicon-32x32.png">
+  
+  <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="mystyle.css">
+  
+  <title>Frontend Mentor | Job Listings</title>
+
+</head>
+
+<body>
+    <header>
+        <img src=".//images/bg-header-desktop.svg">
+    </header>
+    <div class="filter">
+      <p class="right-align">Clear</p>
+    </div>
+   
+    <div class="fixed_add">
+      <button>+&nbsp&nbspAdd</button>
+    </div>
+
+    <div class="overlay"></div>
+    <div class="add_popup">
+      <span class="close_AddPopup">&nbspX&nbsp</span>
+      <form id="myForm">
+        <br>
+        <input type="file" id="myFile" accept="image/*" directory="images">
+        <label>Company name:</label>
+        <input type="text" id="company_name" required="required"><br>
+        <label>Position:</label>
+        <input type="text" id="position" required="required"><br>
+        <label>Role:</label>
+        <select id="role">
+               <option value="Frontend">Frontend</option>
+               <option value="Backend">Backend</option>
+               <option value="Fullstack">Fullstack</option>
+        </select><br>
+        <label>Level:</label>
+        <select id="level">
+               <option value="Junior">Junior</option>
+               <option value="Midweight">Midweight</option>
+               <option value="Senior">Senior</option>
+        </select><br>
+        <label>Languages:</label>
+        <input type="text" id="languages" required="required"><br>
+        <label>Tools:</label>
+        <input type="text" id="tools" required="required"><br>
+        <label>Posted At:</label>
+        <input type="text" id="postedAt" required="required"><br>
+        <label>Contract:</label>
+        <input type="text" id="contract" required="required"><br>
+        <label>Location:</label>
+        <input type="text" id="location" required="required"><br>
+        <label>New:</label>
+        <select id="new">
+          <option value="true">Yes</option>
+          <option value="false">No</option>
+        </select><br>
+        <label>Featured:</label>
+        <select id="featured">
+          <option value="true">Yes</option>
+          <option value="false">No</option>
+        </select><br>
+        <button type="submit" class="rounded-button">Done</button>
+      </form>
+
+    </div>
+
+    <div class="description_popup">
+      <span class="close_DesPopup">&nbspX&nbsp</span>
+    </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
